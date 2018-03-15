@@ -42,9 +42,6 @@
 
 ![](/assets/add-sshkey.png)
 
-将前面步骤中复制的 id_rsa.pub 的内容粘贴到 `Key` 文本框，同时在 `Title` 文本框中为 Key 起一个名字(任意)，最后点击 `Add key` 按钮，完成配置。
+将前面步骤中复制的 id_rsa.pub 的内容粘贴到 `Key` 文本框，同时在 `Title` 文本框中为 Key 起(任意)一个名字，最后点击 `Add key` 按钮，完成配置。
 
-
-
-
-
+至此，你已经创建好了 Gitlab 账户，并成功配置好自己机器的 SSH 密钥。

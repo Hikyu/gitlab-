@@ -8,9 +8,9 @@
 
 * [起步](setup/README.md)
   * [创建账户并配置SSH密钥](setup/create.md)
-  * [\* 创建项目](setup/create-project.md)
   * [\* 创建群组](setup/create-group.md)
-  * [创建分支](setup/create-branch.md)
+  * [\* 创建项目](setup/create-project.md)
+  * [\* 创建分支](setup/create-branch.md)
   * [Fork项目](setup/fork.md)
   * [克隆项目](setup/clone.md)
 * [配置](config/README.md)
