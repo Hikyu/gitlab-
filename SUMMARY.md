@@ -12,6 +12,7 @@
   * [\* 创建群组](setup/create-group.md)
   * [创建分支](setup/create-branch.md)
   * [Fork项目](setup/fork.md)
+  * [克隆项目](setup/clone.md)
 * [配置](config/README.md)
   * [配置邮件通知](config/notification.md)
   * [\* 角色与权限](setup/permission.md)

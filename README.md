@@ -8,7 +8,7 @@
 
 该手册旨在介绍 Gitlab 在神通内部的使用方式。
 
-阅读该手册要求具备一定的 Git 基础知识，参考如下：
+阅读该手册要求具备一定的** Git 基础知识**，参考如下：
 
 [Learn Git Branching](https://learngitbranching.js.org/)
 
