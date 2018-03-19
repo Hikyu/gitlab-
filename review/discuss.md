@@ -18,6 +18,8 @@
 
 每个组内成员都可以对提交的评审进行点评，并且所有的相关人员都会收到邮件提醒。
 
+如果同意该评审的修改，组员可以点击 :+1: 表示自己赞同该评审的修改内容。
+
 如果项目组长认为此次的 Merge Request 是多余的或者没有意义的，也可以点击 `Close merge request`关闭 Merge Request。
 
 ## 更新 Merge Request
@@ -34,7 +36,9 @@
 
 Gitlab 会跟踪这条远程分支的变动，当代码再次推送到远程仓库后，Merge Request 状态**自动更新**，并发送邮件提醒所有相关人员。
 
-【注意】此时并不需要再次提交新的 Merge Request！
+> **[danger] For danger**
+>
+> 此时并不需要再次提交新的 Merge Request！
 
 相关人员可以再次查看该 Merge Request，并做出评论。
 

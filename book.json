@@ -1,0 +1,9 @@
+{
+  "title": "Gitlab 帮助手册",
+  "description": "本书用于指导神通内部 Gitlab 的使用。",
+  "language": "zh",
+  "plugins": [
+    "advanced-emoji",
+    "alerts"
+  ]
+}

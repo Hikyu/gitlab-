@@ -18,3 +18,6 @@
 
 [Git Book](https://git-scm.com/book/zh/v2)
 
+> **[info] 注意**
+>
+> 以下文档的演示均在 Windows 操作系统下进行

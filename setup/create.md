@@ -2,7 +2,9 @@
 
 ## 生成 SSH 密钥
 
-【注意】以下操作需要在自己的机器上安装 [Git](https://git-scm.com/)，默认已经安装。
+> **[info] 注意**
+>
+> 以下操作需要在自己的机器上安装 [Git](https://git-scm.com/)，默认已经安装。
 
 在任意文件夹空白处，右键，选择 `Git GUI Here`：
 
@@ -30,7 +32,9 @@
 
 ![](/assets/register.png)
 
-【注意】`Email` 须填写自己的**外网邮箱账号**！
+> **[danger] 注意**
+>
+> `Email` 须填写自己的**外网邮箱账号**！
 
 ## 配置 Gitlab SSH Key
 
