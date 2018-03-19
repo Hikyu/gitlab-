@@ -1,7 +1,5 @@
 # 修改代码并提交评审
 
-合并请求[^1]（Merge Request）是在 GitLab 上进行代码协作的基础。合并请求，即：请求将一个分支合并到另一个分支。
-
 在[工作流](/workflow/workflow.md)章节中，已经列举了日常修改代码的流程，本章节详细说明一下修改代码并提交评审的细节：
 
 ## 修改代码
@@ -57,7 +55,4 @@
 ![](/assets/gitlab-mr-submit.png)
 
 页面下方可以再一次浏览此次修改的详细内容。确认无误后点击 `Submit merge request` 按钮，提交 Merge Request。
-
-
-[^1]: 类似于 Starteam review request，即提交代码评审.
 
