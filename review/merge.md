@@ -6,7 +6,9 @@
 
 ![](/assets/gitlab-mr-merge.png)
 
-打开 Merge Request，点击 `Merge` 按钮即可合并代码到目标分支。
+打开 Merge Request，勾选 `Remove source branch`，该操作会将在 Gitlab 上创建的临时分支删除。
+
+点击 `Merge` 按钮即可合并代码到目标分支。
 
 ## 遇到合并冲突
 

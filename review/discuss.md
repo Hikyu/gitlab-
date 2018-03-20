@@ -6,13 +6,13 @@
 
 打开 Gitlab，进入项目主页，点击左侧 `Merge Requests`，可以看到所有的 Merge Request：
 
-![](/assets/gitlab-mr-show.png)
+![](/assets/gitlab-mr-all.png)
 
 可以根据 Merge Request 的状态进行过滤，或者直接进行搜索。点击 Merge Request 标题查看 Merge Request：
 
-![](/assets/gitlab-mr-diss.png)
+![](/assets/gitlab-mr-show.png)
 
-可以看到 Merge Request 的详细内容[^1]。在页面下方，`Changes` 标签页可以看到代码修改前后的变化。移动鼠标到代码行，点击行首的 评论图标 按钮，可以针对该行进行点评：
+可以看到 Merge Request 的详细内容[^1]。在页面下方，`Changes` 标签页可以看到代码修改前后的变化。移动鼠标到代码行，点击行首的 :speech_balloon: 按钮，可以针对该行进行点评：
 
 ![](/assets/gitlab-mr-diss-inline.png)
 

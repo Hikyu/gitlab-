@@ -2,7 +2,7 @@
 
 Gitlab 支持创建项目，这里的项目对应 Starteam 中的视图，用于存放对应工程的代码文件。
 
-项目成员可以将项目代码[克隆到本地](/setup/clone.md)，修改代码并[提交代码评审](/review/README.md)。
+项目成员可以将项目代码[克隆到本地](/setup/clone.md)，修改代码并[提交代码评审](/review/local-modify.md)。
 
 > **[danger] 注意**
 >
@@ -48,6 +48,10 @@ Gitlab 支持创建项目，这里的项目对应 Starteam 中的视图，用于
 ![](/assets/git-init.png)
 
 此时，项目已经被成功初始化成为 Git 项目。
+
+> **[warning] 注意**
+>
+> Git 项目初始化完毕，还应该[创建 .gitignore文件](/others/ignore.md)忽略那些不需要纳入版本管理的临时文件。
 
 ### 配置 SourceTree
 
