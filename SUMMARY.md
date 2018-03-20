@@ -24,7 +24,4 @@
 * [其他](others/README.md)
   * [\* 配置.gitignore](others/ignore.md)
   * [解决冲突](others/merge-conflict.md)
-  * [过滤与搜索](others/search.md)
-  * [Merge-squash](others/squash.md)
-  * [Cherry-pick](others/cherry-pick.md)
 
