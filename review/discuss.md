@@ -36,7 +36,7 @@
 
 Gitlab 会跟踪这条远程分支的变动，当代码再次推送到远程仓库后，Merge Request 状态**自动更新**，并发送邮件提醒所有相关人员。
 
-> **[danger] For danger**
+> **[danger] 注意**
 >
 > 此时并不需要再次提交新的 Merge Request！
 
