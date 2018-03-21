@@ -6,7 +6,9 @@
     "advanced-emoji",
     "alerts",
     "anchor-navigation-ex",
-    "anchors"
+    "anchors",
+    "theme-comscore",
+    "splitter"
   ],
   "pluginsConfig": {
     "anchor-navigation-ex": {
