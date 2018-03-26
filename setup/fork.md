@@ -1,6 +1,6 @@
 # Fork项目
 
-> **[danger] For danger**
+> **[注意] For danger**
 >
 > 不允许开发人员直接修改 Gitlab 上项目**任何分支**的代码，也不允许普通开发人员对项目**任何**的分支代码进行推送（[保护分支](/setup/protected-branch.md)）。
 

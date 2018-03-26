@@ -28,7 +28,7 @@
 
 ## 注册 Gitlab 账户
 
-访问 Gitlab web 登录注册页面 [192.168.1.101:8899](http://192.168.1.170:8899/users/sign_in)：
+访问 Gitlab web 登录注册页面 [192.168.1.172:8899](http://192.168.1.172:8899/users/sign_in)：
 
 ![](/assets/register.png)
 
