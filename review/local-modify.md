@@ -36,13 +36,13 @@
 
 ![](/assets/sourcetree-push.png)
 
-注意选择创建的临时分支进行推送，Gitlab 会自动自远程仓库创建同名的分支。
+注意选择临时分支进行推送，推送到fork项目下，Gitlab 会自动在远程仓库创建同名的分支。
 
 点击 `推送` 按钮，将更改推送到远程仓库。
 
 ## 提交评审
 
-打开 Gitlab，进入项目主页，点击左侧列表 `Merge Requests`，点击 `New merge request`：
+打开 Gitlab，进入 fork 项目主页，点击左侧列表 `Merge Requests`，点击 `New merge request`：
 
 ![](/assets/gitlab-mr-create.png)
 
