@@ -55,7 +55,7 @@ Gitlab 支持创建项目，这里的项目对应 Starteam 中的视图，用于
 
 ### 配置 SourceTree
 
-为了简化我们使用 Git 的流程，降低使用难度，我们选择一款 [Git GUI 客户端](https://git-scm.com/download/gui/windows)来进行本地 Git 操作。在此，推荐使用 [SourceTree](https://www.sourcetreeapp.com/) 作为 GUI 客户端：
+为了简化我们使用 Git 的流程，降低使用难度，我们选择一款 [Git GUI](https://git-scm.com/download/gui/windows) 客户端来进行本地 Git 操作。在此，推荐使用 [SourceTree](https://www.sourcetreeapp.com/) 或 [TortoiseGit](https://tortoisegit.org/download/) 作为 GUI 客户端（篇幅有限，下面的操作以 SourceTree 为例）：
 
 > SourceTree 是 Windows 和Mac OS X 下免费的 Git 和 Hg 客户端管理工具，同时也是Mercurial和Subversion版本控制系统工具。支持创建、克隆、提交、push、pull 和合并等操作。
 SourceTree拥有一个精美简洁的界面，大大简化了开发者与代码库之间的Git操作方式，这对于那些不熟悉Git命令的开发者来说非常实用。

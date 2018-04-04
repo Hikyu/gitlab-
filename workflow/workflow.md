@@ -18,12 +18,12 @@ Git 作为一个源码管理系统，不可避免涉及到多人协作。
 
 以平时开发为例：
 
-日常开发：
+**日常开发：**
 
-    - 组内成员反复提交 [Merge Request](/review/basis.md)，修改 Bug 或增加功能。
+- 组内成员反复提交 [Merge Request](/review/basis.md)，修改 Bug 或增加功能。
 
-发布版本：   
+**发布版本：**   
 
-    - 到了发布日，项目组长将 Master 分支的代码合并到 Production 分支；
+- 到了发布日，项目组长将 Master 分支的代码合并到 Production 分支；
 
-    - 发布系统拉取 Production 代码进行编译发布。
+- 发布系统拉取 Production 代码进行编译发布。

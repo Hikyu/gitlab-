@@ -1,8 +1,8 @@
 # Gitlab 帮助手册
 
-**[GitLab](https://about.gitlab.com/)** 是一个基于 Web 的 Git 仓库管理工具，且具有 wiki 和 issue 跟踪功能。
+**[GitLab](https://about.gitlab.com/)** 是一个基于 Web 的 Git 仓库管理工具。
 
-通过 gitlab 可以浏览源代码、管理代码缺陷，管理团队代码，查看历史版本，方便代码   review，提交合并审核，以及团队成员的问题讨论。
+通过 gitlab 可以浏览源代码、管理团队代码、查看历史版本、方便代码 review，提交合并审核，以及团队成员的问题讨论。
 
 ![](/assets/gitlab.png)
 

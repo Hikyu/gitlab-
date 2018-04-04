@@ -24,9 +24,9 @@ Gitlab-CE 提供了 Web 操作方式，集成了从代码托管到代码发布�
 
 - [项目配置](/config/protected-branch.md)
 
-- [工作流](/workflow/workflow.md)
-
 - [代码评审](/review/update.md)
+
+- [工作流](/workflow/workflow.md)
 
 > **[info] 注意**
 >
