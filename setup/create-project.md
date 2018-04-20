@@ -64,7 +64,8 @@ SourceTree拥有一个精美简洁的界面，大大简化了开发者与代码�
 
 > **[warning] 注意**
 >
-> 安装完毕后，使用 SourceTree 之前需要注册一个 SourceTree 账号，该注册过程可能**需要代理** 。仅注册账号过程需要代理，SourceTree 的使用**不需要**代理支持。
+> 安装完毕后，使用 SourceTree 之前需要注册一个 atlassian 账号进行授权，该注册过程可能**需要代理**。跳过 atlassian 账号授权，参考 [SourceTree 免登录跳过初始设置](https://www.cnblogs.com/xiofee/p/sourcetree_pass_initialization_setup.html)
+> 
 
 打开 SourceTree，点击工具栏 `工具` 按钮，选择 `添加SSH密钥`；
 

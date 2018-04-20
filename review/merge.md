@@ -16,6 +16,10 @@
 
 ![](/assets/gitlab-mr-conflict.png)
 
+有两种解决方式：
+
+- 项目组长使用 Gitlab 解决冲突
+
 点击 `Resolve confilcts` 在 Gitlab 上解决冲突：
 
 ![](/assets/gitlab-mr-conflict-resolve.png)
@@ -26,4 +30,7 @@
 
 返回到 Merge Request 页面，刷新，此时 `Merge` 已经可以点击，执行合并了。
 
-也可以选择 `Merge locally`，在本地进行冲突解决。
+- 评审提交人在本地解决冲突
+
+项目组长发现冲突后，在评论中通知评审提交人，解决冲突后重新 push 代码。
+如何在本地解决冲突，参考[解决冲突](/others/merge-conflict.md)
