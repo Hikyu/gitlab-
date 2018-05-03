@@ -34,3 +34,11 @@
 
 项目组长发现冲突后，在评论中通知评审提交人，解决冲突后重新 push 代码。
 如何在本地解决冲突，参考[解决冲突](/others/merge-conflict.md)
+
+## 删除临时分支
+
+Merge Request 通过并且代码已经被合并到公共仓库后，可以考虑删除 fork 仓库中的临时分支和本地的临时分支。
+
+fork 仓库中的临时分支需要登录 Gitlab 进行删除；
+
+本地的临时分支使用 source tree 删除或执行命令 `git branch rm branch_name`，然后使用 `git remote prune origin` 命令删除远程分支的引用。
