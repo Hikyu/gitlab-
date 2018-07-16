@@ -1,10 +1,6 @@
 # Fork项目
 
-> **[danger] 注意**
->
-> 不允许开发人员直接修改 Gitlab 上项目**任何分支**的代码，也不允许普通开发人员对项目**任何**的分支代码进行推送（[保护分支](/setup/protected-branch.md)）。
-
-开发人员需要先 [Fork](https://docs.gitlab.com/ce/gitlab-basics/fork-project.html) 一份项目代码到自己的命名空间下，然后通过[提交代码评审](/review/README.md)的方式，由项目组长将代码合并到项目分支上。
+在[Fork模式](/review/fork/fork.md)下 review 代码，开发人员需要先 [Fork](https://docs.gitlab.com/ce/gitlab-basics/fork-project.html) 一份项目代码到自己的命名空间下，然后通过[提交代码评审](/review/README.md)的方式，由项目组长将代码合并到项目分支上。
 
 打开 Gitlab，进入项目主页：
 

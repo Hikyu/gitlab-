@@ -41,4 +41,4 @@ Merge Request 通过并且代码已经被合并到公共仓库后，可以考虑
 
 fork 仓库中的临时分支需要登录 Gitlab 进行删除；
 
-本地的临时分支使用 source tree 删除或执行命令 `git branch rm branch_name`，然后使用 `git remote prune origin` 命令删除远程分支的引用。
+本地的临时分支使用 source tree 删除或执行命令 `git branch -D branch_name`，然后使用 `git remote prune origin` 命令删除远程分支的引用。

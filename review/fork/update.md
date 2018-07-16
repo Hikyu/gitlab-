@@ -1,8 +1,12 @@
 # 更新本地代码
 
+## Fork项目并克隆到本地
+
+项目成员将公共仓库代码 [fork](/setup/fork.md) 到自己的命名空间下，并将自己命名空间下的项目 [clone](/setup/clone.md) 到本地。
+
 ## 跟踪公共仓库开发分支
 
-想要追踪公共仓库开发分支的代码，首先需要在 SourceTree 中配置远程仓库 URL。打开  SourceTree，点击`工具栏->仓库->仓库设置`：
+想要追踪公共仓库开发分支的代码，首先需要在 SourceTree 中配置远程仓库 URL。打开本地仓库，点击`工具栏->仓库->仓库设置`：
 
 ![](/assets/sourcetree-add-url.png)
 

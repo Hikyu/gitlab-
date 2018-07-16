@@ -2,14 +2,14 @@
 
 Gitlab 支持创建项目，这里的项目对应 Starteam 中的视图，用于存放对应工程的代码文件。
 
-项目成员可以将项目代码[克隆到本地](/setup/clone.md)，修改代码并[提交代码评审](/review/local-modify.md)。
+项目成员可以将项目代码[克隆到本地](/setup/clone.md)，修改代码并[提交代码评审](/review/fork/local-modify.md)。
 
 > **[danger] 注意**
 >
-> 创建项目的工作必须由项目组长创建，严禁个人在Gitlab上创建项目！
+> 创建项目的工作必须由项目组长创建，严禁开发人员在Gitlab上创建项目！
 > 创建某个项目时，必须指定其所在的群组。严禁在 Gitlab 根路径下创建项目！
 
-## 创建项目
+## 创建组内项目
 
 进入 Gitlab，点击工具栏 `Groups` 按钮：
 
@@ -33,7 +33,7 @@ Gitlab 支持创建项目，这里的项目对应 Starteam 中的视图，用于
 
 ![](/assets/copy-url.png)
 
-页面中间显示了项目在 Gitlab 上仓库的地址，选择 `SSH` 协议，点击地址右侧复制按钮复制该URL。
+页面中间显示了项目在 Gitlab 上仓库的地址，选择 `HTTP` 协议，点击地址右侧复制按钮复制该URL。
 
 ### 初始化本地仓库
 
@@ -66,10 +66,6 @@ SourceTree拥有一个精美简洁的界面，大大简化了开发者与代码�
 >
 > 安装完毕后，使用 SourceTree 之前需要注册一个 atlassian 账号进行授权，该注册过程可能**需要代理**。跳过 atlassian 账号授权，参考 [SourceTree 免登录跳过初始设置](https://www.cnblogs.com/xiofee/p/sourcetree_pass_initialization_setup.html)
 > 
-
-打开 SourceTree，点击工具栏 `工具` 按钮，选择 `添加SSH密钥`；
-
-在弹出的文件选择对话框中，选择之前在[创建账户](/setup/create-project.md)中已经生成的SSH密钥 `id_rsa`，点击 `打开` 按钮，弹出命令行对话框，填入SSH密钥的密码，密钥配置成功。
 
 ### 导入项目，配置远程仓库地址
 
@@ -114,3 +110,9 @@ URL/路径：填入前面步骤中复制的远程仓库 URL
 发现本地代码已经成功推送到了远程仓库。
 
 至此，项目的创建以及初始化工作完成。
+
+> **[warning] 注意**
+>
+> 在推送代码之前，gitlab 会要求对推送者的身份进行验证。因为我们采用了HTTP协议与gitlab交互，因此 sourcetree 会弹出对话框，要求填入用户名密码。键入自己 gitlab 账户的用户名和密码即可。
+> 
+> 为了避免使用HTTP协议后需要反复输入密码，可以将用户名密码存储在本地让git push之前自动去读取即可。执行`git config --global credential.helper store --file ~/.my-credentials`，其中，`--file`选项指定了用户名密码存储的位置。当你下一次键入用户名密码进行认证时，这些信息会自动存入该文件中。

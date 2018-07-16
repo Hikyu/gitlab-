@@ -20,4 +20,10 @@
 
 > **[info] 注意**
 >
+> 神通自托管gitlab地址：http://git.db.org/
+>
+> 自托管gitlab的运维工作目前由集成开发部天津部门负责。如有问题或建议，请联系 `王金海<wangjinhai@db.org>`
+
+> **[warning] 注意**
+>
 > 以下文档的演示均在 Windows 操作系统下进行
